@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>SampleCode</artifactId>
+        <groupId>com.supermap.SampleCode</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>Develope</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.supermap.idesktop.cross</groupId>
+            <artifactId>Core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../../../bundles/require_bundles/Core.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.supermap.idesktop.cross</groupId>
+            <artifactId>Controls</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../../../bundles/require_bundles/Controls.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.supermap.idesktop.cross</groupId>
+            <artifactId>Process</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../../../bundles/require_bundles/Process.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.supermap.idesktop.cross</groupId>
+            <artifactId>iDesktop</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../../../iDesktop.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.supermap</groupId>
+            <artifactId>com.supermap.data</artifactId>
+            <version>9.0.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../../../bin/com.supermap.data.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.supermap</groupId>
+            <artifactId>com.supermap.analyst.spatialanalyst</artifactId>
+            <version>9.0.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../../../bin/com.supermap.analyst.spatialanalyst.jar</systemPath>
+        </dependency><dependency>
+            <groupId>com.supermap</groupId>
+            <artifactId>com.supermap.analyst.spatialanalyst</artifactId>
+            <version>9.0.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../../../bin/com.supermap.mapping.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>
