@@ -20,7 +20,6 @@ import java.security.PrivateKey;
  * @time 2018/4/16 0016 上午 10:07
  */
 public class CtrlActionSampleCode extends CtrlAction {
-	private DialogDetailMap a;
 
 	public CtrlActionSampleCode(IBaseItem caller) {
 		super(caller);
@@ -29,7 +28,7 @@ public class CtrlActionSampleCode extends CtrlAction {
 	@Override
 	public void run() {
 //		Workspace workspace = new Workspace();
-//		Map map = new Map(workspace);
+	/*	Map map = new Map();
 		if (Application.getActiveApplication().getActiveForm() instanceof IFormMap) {
 			IFormMap formMap = (IFormMap) Application.getActiveApplication().getActiveForm();
 			MapControl mapControl = formMap.getMapControl();
@@ -39,7 +38,7 @@ public class CtrlActionSampleCode extends CtrlAction {
 			Workspace mapWorkSpace = mapControl.getMap().getWorkspace(); // 地图工作空间
 			//Application.getActiveApplication().getOutput().output(mapName + " , " + mapCenter + " , " + mapScale + " , " + mapWorkSpace);
 
-		}
+		}*/
 		/*IForm activeForm = Application.getActiveApplication().getMainFrame().getFormManager().getActiveForm();
 		IFormMap formMap = (IFormMap) Application.getActiveApplication().getActiveForm();
 		MapControl mapControl = formMap.getMapControl();
@@ -47,8 +46,8 @@ public class CtrlActionSampleCode extends CtrlAction {
 
 		//Point2D point2D = map.getCenter();
 
-		DetailMap detailMap = new DetailMap();
-		detailMap.showDetailMap();
+		DetailMap2 detailMap2 = new DetailMap2();
+		detailMap2.showMap();
 	}
 
 }
